@@ -6,8 +6,10 @@
 </script>
 
 <svelte:head>
-	<title>{index.title}</title>
+	<title>{index.title} - {index.descriptionIndex}</title>
 </svelte:head>
+
+<h1>{index.descriptionIndex}</h1>
 
 <section>
 	<ul>
@@ -15,6 +17,9 @@
 			<li>
 				<a href={post.slug}>{post.title}</a>
 				<small>{formatDate(post.date)}</small>
+				{#each post.categories as category}
+					<small>&num;{category}</small>
+				{/each}
 				<p>{post.description}</p>
 			</li>
 		{/each}

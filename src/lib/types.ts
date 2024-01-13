@@ -1,4 +1,4 @@
-export type Categories = 'blog' | 'tutorial'
+export type Categories = 'blog' | 'tutorial' | 'tech' | 'music' | 'funkot' | 'hugo' | 'ondo'
 
 export type Post = {
     title: string

@@ -5,13 +5,11 @@
 	import "../app.css";
 </script>
 
-<div class="layout">
-	<Header />
-	<main>
-		<slot />
-	</main>
-	<Footer />
-</div>
+<Header />
+<main>
+	<slot />
+</main>
+<Footer />
 
 <style>
 	main {

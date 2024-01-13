@@ -12,7 +12,7 @@
 <article>
 	<hgroup>
 		<h1>{data.meta.title}</h1>
-		<p>{formatDate(data.meta.date)}</p>
+		<small>{formatDate(data.meta.date)}</small>
 	</hgroup>
 
 	<div class="tags">

@@ -1,0 +1,38 @@
+---
+title: funkot diluar indonesia
+description: genre lokal yang tak kalah diapresiasi oleh bangsa lain
+date: "9-3-2023"
+categories:
+    - blog
+    - music
+    - ondo
+published: true
+---
+
+## table of content
+
+## funkot di indonesia
+
+[Funkot](https://id.wikipedia.org/wiki/Funkot) merupakan genre musik yang berasal dari penggabungan antara House dan Dangdut. Merupakan genre musik asli Indonesia dan sering disebut juga sebagai "Funky Kota" karena awalnya muncul dan berkembang di daerah Kota Jakarta.
+
+Funkot di Indonesia dipopulerkan pertama kali oleh Barakatak pada tahun 1990-an. Musik ini biasanya memiliki tempo yang cepat dan energik sekitar 160 - 200 bpm _(beat per minute)_ dan sering dimainkan di acara berkumpulnya masyarakat entah itu pagelaran olahraga daerah ataupun di transportasi umum khususnya angkutan kota.
+
+## funkot di jepang
+
+Mandokoro Takano atau lebih dikenal sebagai DJ Jet Baron menjadi musisi pertama yang mempopulerkan funkot di negara kelahirannya. Untuk lebih lengkapnya cek interview [berikut](https://www.whiteboardjournal.com/interview/ideas/discussing-funky-kota-with-dj-jet-baron/). Singkatnya, ketika beliau sedang mendengar musik dangdut di youtube ia tidak sengaja menemukan funkot dan langsung tertarik dengan genre tersebut. Beliau juga mempelajari musik funkot saat mengunjungi Bali pada tahun 2009. Beberapa judul yang sudah dirilis :
+
+### let's go! champagne-man
+
+### funkot anthem
+
+## masa depan funkot
+
+Dengan adanya genre baru yang dibawakan Mandokoro Takano ke negeri matahari terbit, sedikit tidaknya akan mempengaruhi industri musik Jepang untuk kedepannya. Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa beberapa lagu berikut terinspirasi dari genre asli tanah air ini :
+
+### funkotsu saishin casino
+
+### shibamata
+
+## catatan
+
+-   Follow [@mandokoro_jb](https://www.instagram.com/mandokoro_jb/)

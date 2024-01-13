@@ -1,5 +1,7 @@
 import { dev } from '$app/environment'
 
-export const title = 'Ayunangarang'
-export const description = 'Narayanagung personal blog'
+export const title = 'Ayunan'
+export const description = 'Narayanagung Personal Blog'
+export const descriptionIndex = 'All Posts'
+export const descriptionAbout = 'About Me'
 export const url = dev ? 'http://localhost:5173/' : 'https://ayunangarang.vercel.app'

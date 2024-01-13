@@ -9,5 +9,6 @@
 <style>
 	footer {
 		padding: 1rem;
+		margin-top: auto;
 	}
 </style>
