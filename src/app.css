@@ -12,10 +12,23 @@
     font-family: 'Inter', sans-serif;
 }
 
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+    }
+}
+
+[color-scheme='dark'] {
+    color-scheme: dark;
+}
+
+[color-scheme='light'] {
+    color-scheme: light;
+}
+
 html,
 body {
     display: flex;
     flex-direction: column;
-    color-scheme: light dark;
     height: 100%;
 }

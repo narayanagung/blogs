@@ -1,5 +1,6 @@
 <script lang="ts">
 	import * as index from "$lib/index";
+	import Toggle from "./toggle.svelte";
 </script>
 
 <nav>
@@ -16,7 +17,7 @@
 		</li>
 	</ul>
 
-	<button>Toggle</button>
+	<Toggle />
 </nav>
 
 <style>
