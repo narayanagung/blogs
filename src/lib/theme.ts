@@ -14,7 +14,3 @@ export function toggleTheme() {
         return newTheme
     });
 }
-
-export function setTheme(newTheme: Theme) {
-    theme.set(newTheme)
-}

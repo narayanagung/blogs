@@ -8,7 +8,7 @@ export async function load({params}) {
             meta: post.metadata
         }
     } catch (e) {
-        throw error(404, `Tidak dapat menemukan "${params.slug}"`)
+        throw error(404, `Page Not Found [ /${params.slug} ]`)
     }
     
 }
