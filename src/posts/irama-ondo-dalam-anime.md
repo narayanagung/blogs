@@ -1,5 +1,5 @@
 ---
-title: irama ondo dalam anime
+title: Irama Ondo Dalam Anime
 description: menciptakan atmosfer festival yang dapat dirasakan secara langsung
 date: "9-3-2023"
 categories:
@@ -9,21 +9,21 @@ categories:
 published: true
 ---
 
-## table of content
+## Table of content
 
-## ondo
+## Ondo
 
 [Ondo](<https://en.wikipedia.org/wiki/Ondo_(music)>) adalah genre musik/lagu rakyat tradisional Jepang yang terkait erat dengan festival musim panas. Dalam budaya Jepang yang tak ada habisnya, ondo hadir sebagai perayaan komunitas dan kegembiraan.
 
-## penerapan ondo
+## Penerapan ondo
 
 Genre ini lebih sering muncul di series anime lawas tepatnya di bagian ending, mulai dari _Pokémon_, _Di Gi Charat_, _Sgt. Frog_ dan yang lainnya. Berikut playlist yang bisa didengar jika tertarik dengan genre ini :
 
-## playlist
+## Playlist
 
 [Ondo In Motion](https://youtube.com/playlist?list=PLxYJVQX4iniG5Zlxq2WWZq9fg4eBhjtV7&si=Fc9ci-dq8HRVjEUq)
 
-## preview list
+## Preview list
 
 1. Sunshine Pikkapika Ondo
 
@@ -65,6 +65,6 @@ Genre ini lebih sering muncul di series anime lawas tepatnya di bagian ending, m
 
     ハナビラ音頭
 
-## catatan
+## Catatan
 
--   [Oshiri Puri Ondo](https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo)
+[Oshiri Puri Ondo](https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo)
