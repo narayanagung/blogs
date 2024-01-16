@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Header from "./header.svelte";
+	import Navigation from "./navigation.svelte";
 	import Footer from "./footer.svelte";
 	import Transition from "./transition.svelte";
 
@@ -8,7 +8,7 @@
 	export let data;
 </script>
 
-<Header />
+<Navigation />
 
 <main>
 	<Transition url={data.url}>

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as index from "$lib/index";
-	import { formatDate } from "$lib/utils";
+	import { formatDate } from "$lib/date.js";
 
 	export let data;
 </script>
@@ -13,7 +13,7 @@
 	<h1>{index.descriptionIndex}</h1>
 	<ul>
 		{#each data.posts as post}
-			<li>
+			<li class="post">
 				<a href={post.slug}>{post.title}</a>
 				<p>{post.description}</p>
 				<p class="date">{formatDate(post.date)}</p>
@@ -24,9 +24,10 @@
 
 <style>
 	h1 {
-		font-size: 2rem;
+		font-size: clamp(1.5rem, 2.5vw, 2rem);
 		font-weight: 600;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
+		text-align: center;
 	}
 
 	section {
@@ -43,18 +44,27 @@
 		display: block;
 		text-decoration: none;
 		text-transform: capitalize;
-		font-size: 1.5rem;
-		color: hsl(215, 100%, 50%);
+		font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+		color: hsl(200, 100%, 50%);
 		text-wrap: balance;
 		line-height: 2rem;
+		transition: 150ms;
 	}
 
 	a:hover {
-		color: hsl(200, 100%, 50%);
+		color: hsl(210, 100%, 50%);
+		transition: 150ms;
 	}
 
 	li {
-		padding: 0.5rem 0;
+		padding: 0rem 1rem;
+		margin-bottom: 1.5rem;
+		transition: 150ms;
+		max-inline-size: 70ch;
+	}
+
+	li:not(:last-child) {
+		border-bottom: 2px solid hsla(0, 0%, 50%, 0.5);
 	}
 
 	li > * {
@@ -63,6 +73,7 @@
 
 	.date {
 		opacity: 0.7;
+		margin-bottom: 1rem;
 	}
 
 	p::first-letter {

@@ -7,11 +7,11 @@
 <button on:click={toggleTheme} aria-label="Toggle theme">
 	{#if $theme === "dark"}
 		<div in:fly={{ y: 5 }}>
-			<span>Light</span><Sun size={20} />
+			<span>Light</span><Sun size={15} />
 		</div>
 	{:else}
 		<div in:fly={{ y: -5 }}>
-			<span>Dark</span><MoonStar size={20} />
+			<span>Dark</span><MoonStar size={15} />
 		</div>
 	{/if}
 </button>
@@ -20,7 +20,7 @@
 	button {
 		display: flex;
 		align-items: center;
-		padding: 0;
+		padding: 1rem;
 		background: none;
 		border: none;
 		box-shadow: none;
@@ -30,13 +30,13 @@
 	}
 
 	button:hover {
-		color: hsl(0, 0%, 50%);
+		background-color: hsla(200, 100%, 50%, 0.1);
 		transition: 150ms;
 	}
 
 	button > * {
 		display: flex;
-		gap: 0.5rem;
+		gap: 0.2rem;
 		align-items: center;
 		font-size: 1rem;
 	}

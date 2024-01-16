@@ -1,3 +1,5 @@
+export const prerender = true
+
 import * as index from '$lib/index'
 import type { Post } from '$lib/types'
 

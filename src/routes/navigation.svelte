@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as index from "$lib/index";
-	import Toggle from "./toggle.svelte";
+	import ThemeToggle from "./theme-toggle.svelte";
 	import { Rss } from "lucide-svelte";
 </script>
 
@@ -14,11 +14,11 @@
 			<a href="/about">About</a>
 		</li>
 		<li>
-			<a href="/rss.xml" target="_blank">RSS<Rss size={20} /></a>
+			<a href="/rss.xml" target="_blank">RSS<Rss size={15} /></a>
 		</li>
 	</ul>
 
-	<Toggle />
+	<ThemeToggle />
 </nav>
 
 <style>
@@ -26,34 +26,34 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 1rem;
-		gap: 1rem;
+		background-color: hsla(200, 100%, 50%, 0.1);
 	}
 
 	.title {
 		font-weight: 700;
 		text-decoration: none;
 		color: inherit;
+		padding: 1rem;
 		transition: 150ms;
 	}
 
 	.title:hover {
-		color: hsl(200, 100%, 50%);
+		background-color: hsla(200, 100%, 50%, 0.1);
 		transition: 150ms;
 	}
 
 	.links a {
 		text-decoration: none;
 		color: inherit;
-		transition: 150ms;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 0.1rem;
+		transition: 150ms;
+		padding: 1rem;
 	}
 
 	.links a:hover {
-		color: hsl(200, 100%, 50%);
+		background-color: hsla(200, 100%, 50%, 0.1);
 		transition: 150ms;
 	}
 
@@ -62,6 +62,5 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		gap: 1rem;
 	}
 </style>

@@ -8,6 +8,8 @@
 
 <style>
 	footer {
+		display: grid;
+		place-content: center;
 		padding: 1rem;
 		margin-top: auto;
 	}

@@ -18,16 +18,16 @@
 
 <style>
 	h1 {
-		font-size: 2rem;
+		font-size: clamp(1.5rem, 2.5vw, 2rem);
 		font-weight: 600;
 		margin-bottom: 2rem;
+		text-align: center;
 	}
 
 	section {
 		display: grid;
 		place-content: center;
 		padding: 2rem 0;
-		font-size: 1.5rem;
 	}
 
 	.social {
@@ -43,6 +43,7 @@
 		text-decoration: none;
 		color: inherit;
 		transition: 150ms;
+		font-size: clamp(1.3rem, 2.5vw, 1.5rem);
 	}
 
 	a:hover {
