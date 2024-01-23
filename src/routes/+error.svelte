@@ -5,7 +5,7 @@
 
 <div class="error">
 	<h1><span>{$page.status}</span> {$page.error?.message}</h1>
-	<img src={yuiGif} alt="yui stare with disbelief" />
+	<img src="https://s13.gifyu.com/images/S01xa.gif" alt="yui stare with disbelief" />
 	<p>Halaman yang anda tuju <span>tidak ditemukan</span></p>
 </div>
 
