@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        color-scheme: light;
+        color-scheme: dark;
     }
 }
 
@@ -53,11 +53,12 @@ body {
 }
 
 .markdown p {
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
 .markdown :is(ul, ol) {
     padding-left: 2rem;
+    line-height: 1.5rem;
 }
 
 .markdown li {
@@ -66,12 +67,12 @@ body {
 
 .markdown a {
     text-decoration: none;
-    color: hsl(200, 100%, 50%);
+    color: hsl(210, 100%, 50%);
     transition: 150ms;
 }
 
 .markdown a:hover {
-    color: hsl(210, 100%, 50%);
+    color: inherit;
     transition: 150ms;
 }
 

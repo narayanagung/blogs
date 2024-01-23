@@ -10,9 +10,9 @@
 <section>
 	<h1>{index.descriptionAbout}</h1>
 	<div class="social">
-		<a href="mailto:agungnarayanagung@gmail.com"><Mail size={20} /><span>agungnarayanagung@gmail.com</span></a>
-		<a target="_blank" href="https://www.github.com/narayanagung"><Github size={20} /><span>narayanagung</span></a>
-		<a target="_blank" href="https://www.instagram.com/narayanagung"><Instagram size={20} /><span>narayanagung</span></a>
+		<a href="mailto:agungnarayanagung@gmail.com"><Mail size={20} /><span>Email</span></a>
+		<a target="_blank" href="https://www.github.com/narayanagung"><Github size={20} /><span>Github</span></a>
+		<a target="_blank" href="https://www.instagram.com/narayanagung"><Instagram size={20} /><span>Instagram</span></a>
 	</div>
 </section>
 
@@ -32,7 +32,6 @@
 
 	.social {
 		display: flex;
-		flex-direction: column;
 		gap: 1rem;
 	}
 
@@ -49,5 +48,11 @@
 	a:hover {
 		color: hsl(200, 100%, 50%);
 		transition: 150ms;
+	}
+
+	@media screen and (max-width: 400px) {
+		.social {
+			flex-direction: column;
+		}
 	}
 </style>

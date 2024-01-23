@@ -45,14 +45,14 @@
 		text-decoration: none;
 		text-transform: capitalize;
 		font-size: clamp(1.3rem, 2.5vw, 1.5rem);
-		color: hsl(200, 100%, 50%);
+		color: hsl(210, 100%, 50%);
 		text-wrap: balance;
 		line-height: 2rem;
 		transition: 150ms;
 	}
 
 	a:hover {
-		color: hsl(210, 100%, 50%);
+		color: inherit;
 		transition: 150ms;
 	}
 

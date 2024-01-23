@@ -1,4 +1,5 @@
 <script lang="ts">
+	// @ts-nocheck
 	import { formatDate } from "$lib/date.js";
 	export let data;
 </script>
@@ -20,11 +21,14 @@
 				{/each}
 			</div>
 		</hgroup>
-
 		<div class="markdown">
 			<svelte:component this={data.content} />
 		</div>
 	</article>
+	<div class="comment">
+		<script src="https://utteranc.es/client.js" repo="narayanagung/blogs" issue-term="title" label="Comment" theme="icy-dark" crossorigin="anonymous" async>
+		</script>
+	</div>
 </main>
 
 <style>
@@ -41,7 +45,7 @@
 		border-right: 2px solid hsla(0, 0%, 50%, 0.5);
 		border-bottom: 2px solid hsla(200, 100%, 50%, 0.5);
 		border-top: 2px solid hsla(0, 0%, 50%, 0.5);
-		background-color: hsla(0, 0%, 50%, 0.1);
+		background-color: hsla(0, 0%, 70%, 0.1);
 		max-inline-size: 70ch;
 	}
 
@@ -53,6 +57,9 @@
 	h1 {
 		font-size: clamp(1.7rem, 2.5vw, 2rem);
 		text-wrap: balance;
+		border-radius: 50%;
+		border-right: 10px hsla(200, 100%, 50%, 0.5) solid;
+		border-left: 10px hsla(0, 0%, 50%, 0.5) solid;
 	}
 
 	hgroup p {
@@ -73,9 +80,18 @@
 		font-weight: 600;
 	}
 
+	.comment {
+		max-width: 100%;
+		margin-top: 1rem;
+	}
+
 	@media screen and (max-width: 400px) {
 		article {
 			padding: 1rem;
+		}
+
+		h1 {
+			font-size: 1.5rem;
 		}
 	}
 </style>

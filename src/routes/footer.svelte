@@ -10,7 +10,9 @@
 	footer {
 		display: grid;
 		place-content: center;
-		padding: 1rem;
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+		padding-inline: 1rem;
 		margin-top: auto;
 	}
 </style>

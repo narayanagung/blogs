@@ -14,7 +14,7 @@
 			<a href="/about">About</a>
 		</li>
 		<li>
-			<a href="/rss.xml" target="_blank">RSS<Rss size={15} /></a>
+			<a href="/rss.xml" target="_blank">Rss<Rss size={15} /></a>
 		</li>
 	</ul>
 
