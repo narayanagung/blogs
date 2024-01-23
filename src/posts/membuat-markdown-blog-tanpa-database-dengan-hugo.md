@@ -1,6 +1,6 @@
 ---
-title: Membuat Markdown Blog Tanpa Database Dengan Hugo
-description: ada banyak cara dalam membuat web blog dengan cepat namun kali ini kita akan menggunakan hugo
+title: Membuat Markdown Blog Dengan Hugo
+description: Membuat web blog dengan cepat
 date: "9-5-2023"
 categories:
     - tutorial
@@ -26,7 +26,7 @@ Yang perlu disiapkan sebelum mengikuti tutorial :
 
 Pertama-tama, install Hugo pada perangkat dengan mengikuti panduan instalasi dari [hugo installation](https://gohugo.io/getting-started/installing/) menyesuaikan dengan sistem operasi yang anda gunakan.
 
-Buka terminal dan ketik/copy perintah dibawah : _(khusus windows)_
+Buka terminal dan ketik/copy perintah dibawah : (khusus windows)
 
 ```bash
 winget install Hugo.Hugo.Extended
@@ -71,7 +71,7 @@ Cari file yang bernama hugo.toml di dalam folder project untuk mengkonfigurasi a
 
 Berdasarkan tema yang dipakai, struktur folder dan penamaan file akan sedikit berbeda-beda. Selalu cek bagian dokumentasi dari theme yang anda pakai.
 
-Untuk menjalankan web secara local _(localhost)_ jalankan perintah berikut :
+Untuk menjalankan web secara lokal jalankan perintah berikut :
 
 ```bash
 hugo server
@@ -87,10 +87,10 @@ Jika dirasa sudah cukup, selanjutnya cetak/build project dengan perintah berikut
 hugo -t "nama-tema"
 ```
 
-Akan muncul folder baru bernama _"public"_ yang bisa dipakai untuk mem-_publish_ situs ke penyedia hosting favorit kalian!
+Akan muncul folder baru bernama _"public"_ yang bisa dipakai untuk mempublish situs ke penyedia hosting favorit kalian!
 
-Jangan lupa untuk mengubah file hugo.toml dan sesuaikan domain sebelum mencetak situs.
+_Jangan lupa untuk mengubah file hugo.toml dan sesuaikan domain yang akan dipakai sebelum mencetak situs._
 
 ## Catatan
 
-Tema yang dipakai : [Docura](https://themes.gohugo.io/themes/docura/)
+Tema yang dipakai : <a href="https://themes.gohugo.io/themes/docura/" target="_blank">Docura↗</a>

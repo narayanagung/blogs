@@ -1,6 +1,6 @@
 ---
 title: Funkot Diluar Indonesia
-description: genre lokal yang tak kalah diapresiasi oleh bangsa lain
+description: Genre lokal yang tak kalah diapresiasi oleh bangsa lain
 date: "9-3-2023"
 categories:
     - blog
@@ -19,13 +19,17 @@ Funkot di Indonesia dipopulerkan pertama kali oleh Barakatak pada tahun 1990-an.
 
 ## Funkot di jepang
 
-Mandokoro Takano atau lebih dikenal sebagai DJ Jet Baron menjadi musisi pertama yang mempopulerkan funkot di negara kelahirannya. Untuk lebih lengkapnya cek interview [berikut](https://www.whiteboardjournal.com/interview/ideas/discussing-funky-kota-with-dj-jet-baron/).
+Mandokoro Takano atau lebih dikenal sebagai DJ Jet Baron menjadi musisi pertama yang mempopulerkan funkot di negara kelahirannya. Untuk lebih lengkapnya cek interview [berikut.](https://www.whiteboardjournal.com/interview/ideas/discussing-funky-kota-with-dj-jet-baron/)
 
 Singkatnya, ketika beliau sedang mendengar musik dangdut di youtube ia tidak sengaja menemukan funkot dan langsung tertarik dengan genre tersebut. Beliau juga mempelajari musik funkot saat mengunjungi Bali pada tahun 2009. Beberapa judul yang sudah dirilis :
 
 ### Let's go! Champagne-man!
 
+<a href="https://youtu.be/zUiIOnuOwkI?si=_KIx0XLNCusRscCY" target="_blank">Buka↗</a>
+
 ### Funkot Anthem
+
+<a href="https://youtu.be/JGoV1ZYbNtc?si=Jl2zQkOf4myMsIbz" target="_blank">Buka↗</a>
 
 ## Masa depan funkot
 
@@ -35,8 +39,12 @@ Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa bebe
 
 ### Funkotsu Saishin Casino
 
+<a href="https://youtu.be/IzLuGfLqSpE?si=gZs_DeJBt6VXjMRA" target="_blank">Buka↗</a>
+
 ### Shibamata
+
+<a href="https://youtu.be/FIw-HUP7XK0?si=7MjeLhJzSdabUtt8" target="_blank">Buka↗</a>
 
 ## Catatan
 
-Follow [@mandokoro_jb](https://www.instagram.com/mandokoro_jb/)
+Credit <a href="https://www.instagram.com/mandokoro_jb/" target="_blank">@mandokoro_jb</a>
