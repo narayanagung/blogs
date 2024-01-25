@@ -1,7 +1,7 @@
 ---
 title: Irama Ondo Dalam Anime
 description: Menciptakan atmosfer festival yang dapat dirasakan secara langsung
-date: "9-3-2023"
+date: "8-26-2023"
 categories:
     - blog
     - music
@@ -25,21 +25,21 @@ Genre ini lebih sering muncul di series anime lawas tepatnya di bagian ending, m
 
 <a 
     href="https://youtube.com/playlist?list=PLxYJVQX4iniG5Zlxq2WWZq9fg4eBhjtV7&si=Fc9ci-dq8HRVjEUq" 
-    target="_blank">Buka↗
+    target="_blank">Buka Playlist↗
 </a>
 
 ## Preview list
 
-1. Sunshine Pikkapika Ondo
-2. Pekopon Shinryaku Ondo
-3. Pretty Cure Ondo
-4. Pokémon Ondo
-5. Di Gi Charat Ondo
-6. Hunter Ondo
-7. WA! WA!! World Ondo
-8. Neko Neko Ondo
-9. Ichijou Ondo
-10. Hanabira Ondo
+-   Sunshine Pikkapika Ondo
+-   Pekopon Shinryaku Ondo
+-   Pretty Cure Ondo
+-   Pokémon Ondo
+-   Di Gi Charat Ondo
+-   Hunter Ondo
+-   WA! WA!! World Ondo
+-   Neko Neko Ondo
+-   Ichijou Ondo
+-   Hanabira Ondo
 
 ## Catatan
 

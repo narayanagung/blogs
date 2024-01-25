@@ -4,7 +4,7 @@
 	import { theme, toggleTheme } from "$lib/theme";
 </script>
 
-<button on:click={toggleTheme} aria-label="Toggle theme">
+<button on:click={toggleTheme} title="Toggle Theme" aria-label="Toggle theme">
 	{#if $theme === "dark"}
 		<div in:fly={{ y: 5 }}>
 			<span>Light</span><Sun size={15} />
@@ -39,5 +39,9 @@
 		gap: 0.2rem;
 		align-items: center;
 		font-size: 1rem;
+	}
+
+	span {
+		font-family: "Inter", sans-serif;
 	}
 </style>

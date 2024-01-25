@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { page } from "$app/stores";
-	const yuiGif = new URL("../assets/yuiError.gif", import.meta.url).href;
+	// const yuiGif = new URL("../assets/yuiError.gif", import.meta.url).href;
 </script>
 
 <div class="error">
 	<h1><span>{$page.status}</span> {$page.error?.message}</h1>
-	<img src="https://s13.gifyu.com/images/S01xa.gif" alt="yui stare with disbelief" />
+	<img src="https://s13.gifyu.com/images/S01xa.gif" title="what you've done to this site..." alt="Yui staring with disbelief" />
 	<p>Halaman yang anda tuju <span>tidak ditemukan</span></p>
 </div>
 

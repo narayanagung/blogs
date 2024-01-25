@@ -14,9 +14,9 @@
 	<ul>
 		{#each data.posts as post}
 			<li class="post">
+				<small class="date">{formatDate(post.date)}</small>
 				<a href={post.slug}>{post.title}</a>
 				<p>{post.description}</p>
-				<p class="date">{formatDate(post.date)}</p>
 			</li>
 		{/each}
 	</ul>
@@ -69,6 +69,10 @@
 
 	li > * {
 		margin-top: 0.3rem;
+	}
+
+	li p {
+		margin-bottom: 1.5rem;
 	}
 
 	.date {

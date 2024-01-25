@@ -1,7 +1,7 @@
 ---
 title: Membuat Markdown Blog Dengan Hugo
-description: Membuat web blog dengan cepat
-date: "9-5-2023"
+description: Membuat web blog dengan cepat tanpa database
+date: "9-4-2023"
 categories:
     - tutorial
     - tech

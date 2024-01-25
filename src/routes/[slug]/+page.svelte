@@ -13,8 +13,8 @@
 <main>
 	<article>
 		<hgroup>
+			<small class="date">{formatDate(data.meta.date)}</small>
 			<h1>{data.meta.title}</h1>
-			<p>{formatDate(data.meta.date)}</p>
 			<div class="tags">
 				{#each data.meta.categories as category}
 					<small>&num;{category}</small>
@@ -39,7 +39,7 @@
 
 	article {
 		padding: 2rem;
-		margin-top: 2rem;
+		margin-top: 1rem;
 		border-radius: 0.25rem;
 		border-left: 2px solid hsla(200, 100%, 50%, 0.5);
 		border-right: 2px solid hsla(0, 0%, 50%, 0.5);
@@ -52,19 +52,19 @@
 	hgroup {
 		margin-bottom: 2rem;
 		text-align: center;
+		border-radius: 50%;
+		border-right: 10px hsla(200, 100%, 50%, 0.3) solid;
+		border-left: 10px hsla(0, 0%, 50%, 0.3) solid;
 	}
 
 	h1 {
 		font-size: clamp(1.7rem, 2.5vw, 2rem);
 		text-wrap: balance;
-		border-radius: 50%;
-		border-right: 10px hsla(200, 100%, 50%, 0.5) solid;
-		border-left: 10px hsla(0, 0%, 50%, 0.5) solid;
+		margin-block: 1.5rem;
 	}
 
-	hgroup p {
+	hgroup .date {
 		opacity: 0.7;
-		margin-block: 1.5rem;
 	}
 
 	.tags {
