@@ -89,6 +89,12 @@ body {
     width: min-content;
 }
 
+.markdown small {
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.7;
+}
+
 @media screen and (max-width: 320px) {
     .markdown pre {
         max-inline-size: 30ch;

@@ -43,4 +43,7 @@ Genre ini lebih sering muncul di series anime lawas tepatnya di bagian ending, m
 
 ## Catatan
 
-Bonus <a href="https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo" target="_blank">Oshiri Puri Ondo↗</a>
+Bonus :
+
+-   <a href="https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo" target="_blank">Oshiri Puri Ondo↗</a>
+-   <a href="https://youtu.be/1_nghnkp4Og?si=981ol-Ia3ookXlRB" target="_blank">Tanko Bushi↗</a>

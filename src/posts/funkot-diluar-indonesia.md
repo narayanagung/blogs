@@ -26,10 +26,12 @@ Singkatnya, ketika beliau sedang mendengar musik dangdut di youtube ia tidak sen
 ### Let's go! Champagne-man!
 
 <a href="https://youtu.be/zUiIOnuOwkI?si=_KIx0XLNCusRscCY" target="_blank">Buka Video↗</a>
+<small>(2014)</small>
 
 ### Funkot Anthem
 
 <a href="https://youtu.be/JGoV1ZYbNtc?si=Jl2zQkOf4myMsIbz" target="_blank">Buka Video↗</a>
+<small>(2013)</small>
 
 ## Masa depan funkot
 
@@ -40,10 +42,12 @@ Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa bebe
 ### Funkotsu Saishin Casino
 
 <a href="https://youtu.be/IzLuGfLqSpE?si=gZs_DeJBt6VXjMRA" target="_blank">Buka Video↗</a>
+<small>(2020)</small>
 
 ### Shibamata
 
 <a href="https://youtu.be/FIw-HUP7XK0?si=7MjeLhJzSdabUtt8" target="_blank">Buka Video↗</a>
+<small>(2012)</small>
 
 ## Catatan
 
