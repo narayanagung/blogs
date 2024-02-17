@@ -9,6 +9,8 @@ categories:
 published: true
 ---
 
+<img src="https://i.ibb.co/xJGpw05/Hugo-hero.jpg" alt="Hugo hero">
+
 ## Table of content
 
 Hugo adalah sebuah framework dalam membuat website statis yang dibangun dengan [Golang.](https://go.dev/learn/) Website statis adalah pilihan alternatif untuk membuat konten website dengan skala yang lebih kecil dan cepat seperti blog atau sesimple web portofolio.
@@ -50,6 +52,8 @@ cd "nama-project"
 
 Ketika sudah masuk, buka folder project dengan text editor.
 
+<img src="https://i.ibb.co/vYMBVF2/Struktur-folder-hugo.jpg" alt="Struktur folder hugo" loading="lazy">
+
 ## Memilih tema
 
 Hugo memiliki banyak tema yang bisa gunakan. Pilih tema yang dirasa sesuai dari [hugo themes.](https://themes.gohugo.io/)
@@ -67,6 +71,8 @@ Folder baru bernama _"themes"_ akan muncul di folder project.
 
 Cari file yang bernama hugo.toml di dalam folder project untuk mengkonfigurasi alamat situs. Jangan lupa save sebelum keluar dari file.
 
+<img src="https://i.ibb.co/N1gxNFY/Tampilan-hugo-toml.jpg" alt="Tampilan hugo.toml" loading="lazy">
+
 ## Preview dan kustomisasi
 
 Berdasarkan tema yang dipakai, struktur folder dan penamaan file akan sedikit berbeda-beda. Selalu cek bagian dokumentasi dari theme yang anda pakai.
@@ -76,6 +82,8 @@ Untuk menjalankan web secara lokal jalankan perintah berikut :
 ```bash
 hugo server
 ```
+
+<img src="https://i.ibb.co/rH53LgG/Tampilan-web.jpg" alt="Tampilan web" loading="lazy">
 
 Silahkan edit, tambahkan, atau kurangi elemen dari tema yang dipakai sesuai kebutuhan dan tujuan masing-masing. Gunakan _ctrl + c_ untuk menghentikan situs.
 

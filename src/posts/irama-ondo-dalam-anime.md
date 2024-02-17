@@ -9,6 +9,8 @@ categories:
 published: true
 ---
 
+<img src="https://i.ibb.co/9YzXwpR/Coverondo.jpg" alt="Coverondo">
+
 ## Table of content
 
 ## Ondo
@@ -23,9 +25,9 @@ Genre ini lebih sering muncul di series anime lawas tepatnya di bagian ending, m
 
 ### Ondo in motion
 
-<a 
-    href="https://youtube.com/playlist?list=PLxYJVQX4iniG5Zlxq2WWZq9fg4eBhjtV7&si=Fc9ci-dq8HRVjEUq" 
-    target="_blank">Buka Playlist↗
+<a href="https://youtube.com/playlist?list=PLxYJVQX4iniG5Zlxq2WWZq9fg4eBhjtV7&si=Fc9ci-dq8HRVjEUq" target="_blank">
+    <p class="span">Buka Playlist↗</p>
+    <img src="https://i.ibb.co/cJDmSvc/Ondoinmotion.jpg" alt="Ondo in motion" title="Ondo in motion" loading="lazy">
 </a>
 
 ## Preview list
@@ -40,6 +42,7 @@ Genre ini lebih sering muncul di series anime lawas tepatnya di bagian ending, m
 -   Neko Neko Ondo
 -   Ichijou Ondo
 -   Hanabira Ondo
+    -   dan yang lainnya...
 
 ## Catatan
 
