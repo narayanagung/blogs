@@ -27,12 +27,12 @@
 
 [color-scheme='dark'] {
     color-scheme: dark;
-    background-color: hsl(0, 0%, 10%);
+    background-color: hsl(0, 0%, 15%);
 }
 
 [color-scheme='light'] {
     color-scheme: light;
-    background-color: hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%, 95%);
 }
 
 html,
@@ -53,6 +53,10 @@ body {
     margin-top: 1.5rem;
 }
 
+.markdown .span {
+    margin-bottom: 0.5rem;
+}
+
 .markdown p {
     line-height: 1.7rem;
 }
@@ -68,7 +72,7 @@ body {
 
 .markdown a {
     text-decoration: none;
-    color: hsl(210, 100%, 50%);
+    color: hsl(200, 100%, 50%);
     transition: 150ms;
 }
 
@@ -78,6 +82,7 @@ body {
 }
 
 .markdown pre {
+    max-width: 100%;
     max-inline-size: 100%;
     padding: 1rem;
     border-radius: 0.25rem;
@@ -93,6 +98,18 @@ body {
     font-size: 0.7rem;
     color: hsl(0, 0%, 100%);
     opacity: 0.7;
+}
+
+.markdown img {
+    max-width: 100%;
+    margin-top: 0.5rem;
+    display: block;
+    /* border: 2px solid hsla(0, 0%, 50%, 0.3); */
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 @media screen and (max-width: 320px) {
