@@ -8,18 +8,19 @@
 <nav>
 	<a href="/" title="Ayunan!" class="logo"><img src={logo} alt="Logo" /></a>
 
-	<a href="/" title="All Posts" class="title">All Posts</a>
-
 	<ul class="links">
+		<li>
+			<a href="/" title="All Posts" class="title">All Posts</a>
+		</li>
 		<li>
 			<a href="/about" title="About Me">About</a>
 		</li>
 		<li>
-			<a href="/rss.xml" title="Rss Feed" target="_blank">Rss<Rss size={15} /></a>
+			<a href="/rss.xml" title="Rss Feed" target="_blank">RSS<Rss size={15} /></a>
 		</li>
 	</ul>
 
-	<ThemeToggle />
+	<!-- <ThemeToggle /> -->
 </nav>
 
 <style>

@@ -41,11 +41,11 @@
 		padding: 2rem;
 		margin-top: 1rem;
 		border-radius: 0.25rem;
-		border-left: 2px solid hsla(200, 100%, 50%, 0.5);
-		border-right: 2px solid hsla(0, 0%, 50%, 0.5);
-		border-bottom: 2px solid hsla(200, 100%, 50%, 0.5);
-		border-top: 2px solid hsla(0, 0%, 50%, 0.5);
-		background-color: hsla(0, 0%, 70%, 0.1);
+		/* border-left: 2px solid hsla(200, 100%, 50%, 0.3);
+		border-right: 2px solid hsla(0, 0%, 50%, 0.3);
+		border-bottom: 2px solid hsla(200, 100%, 50%, 0.3);
+		border-top: 2px solid hsla(0, 0%, 50%, 0.3); */
+		background-color: hsla(0, 0%, 13%, 0.6);
 		max-inline-size: 70ch;
 	}
 
@@ -53,8 +53,8 @@
 		margin-bottom: 2rem;
 		text-align: center;
 		border-radius: 50%;
-		border-right: 10px hsla(200, 100%, 50%, 0.3) solid;
-		border-left: 10px hsla(0, 0%, 50%, 0.3) solid;
+		border-right: 10px hsla(200, 100%, 50%, 0.1) solid;
+		border-left: 10px hsla(0, 0%, 50%, 0.1) solid;
 	}
 
 	h1 {
