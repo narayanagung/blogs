@@ -107,7 +107,4 @@ _Jangan lupa untuk mengubah file hugo.toml dan sesuaikan domain yang akan dipaka
 
 ## Catatan
 
-Tema yang dipakai :
-
--   <a href="https://themes.gohugo.io/themes/docura/" target="_blank"><span class="notes">Docura<ArrowUpRight size={20}/>
-    </span></a>
+<a href="https://themes.gohugo.io/themes/docura/" target="_blank"><span class="notes">Tema yang dipakai<ArrowUpRight size={20}/></span></a>

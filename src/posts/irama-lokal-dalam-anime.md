@@ -54,8 +54,4 @@ Genre ini lebih sering muncul di series anime lawas tepatnya di bagian penutup, 
 
 ## Catatan
 
-Bonus :
-
--   <a href="https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo" target="_blank"><span class="notes">Oshiri Puri
-Ondo<ArrowUpRight size={20} /></span></a>
-<!-- -   <a href="https://youtu.be/1_nghnkp4Og?si=981ol-Ia3ookXlRB" target="_blank">Tanko Bushi↗</a> -->
+<a href="https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo" target="_blank"><span class="notes">Oshiri Puri Ondo<ArrowUpRight size={20} /></span></a>
