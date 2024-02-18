@@ -1,3 +1,6 @@
+export const csr = false
+export const ssr = true
+
 import type { Post } from '$lib/types'
 
 export async function load({fetch}) {

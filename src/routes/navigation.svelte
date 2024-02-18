@@ -1,12 +1,10 @@
 <script lang="ts">
-	import ThemeToggle from "./theme-toggle.svelte";
+	// import ThemeToggle from "./theme-toggle.svelte";
 	import { Rss } from "lucide-svelte";
-
-	const logo = new URL("../assets/logo.png", import.meta.url).href;
 </script>
 
 <nav>
-	<a href="/" title="Ayunan!" class="logo"><img src={logo} alt="Logo" /></a>
+	<a href="/" title="Ayunan!" class="logo"><img src="/logo.png" alt="Logo" /></a>
 
 	<ul class="links">
 		<li>
