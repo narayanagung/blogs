@@ -78,6 +78,7 @@
 		padding: 0.3rem 0.6rem;
 		border-radius: 0.6rem;
 		font-weight: 600;
+		cursor: not-allowed;
 	}
 
 	.comment {

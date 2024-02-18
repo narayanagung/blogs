@@ -1,15 +1,19 @@
 ---
 title: Funkot Diluar Indonesia
-description: Genre lokal yang tak kalah diapresiasi oleh bangsa lain
+description: Genre musik yang tak kalah diapresiasi oleh bangsa lain
 date: "9-3-2023"
 categories:
     - blog
     - music
-    - ondo
+    - funkot
 published: true
 ---
 
-<img src="https://i.ibb.co/h81zp2h/Coverfunkot.jpg" alt="Coverfunkot">
+<script lang="ts">
+	import { ArrowUpRight } from "lucide-svelte";
+</script>
+
+<img src="https://i.ibb.co/h81zp2h/Coverfunkot.jpg" alt="Funkot hero">
 
 ## Table of content
 
@@ -28,14 +32,14 @@ Singkatnya, ketika beliau sedang mendengar musik dangdut di youtube ia tidak sen
 ### Let's go! Champagne-man!
 
 <a href="https://youtu.be/zUiIOnuOwkI?si=_KIx0XLNCusRscCY" target="_blank">
-    <p class="span">Buka Video↗ <small>(2014)</small></p>
+    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2014)</small></p>
     <img src="https://i.ibb.co/tx6p63w/Champagne-man.jpg" alt="Let's go! Champagne-man!" title="Let's go! Champagne-man!" loading="lazy">
 </a>
 
 ### Funkot Anthem
 
 <a href="https://youtu.be/JGoV1ZYbNtc?si=Jl2zQkOf4myMsIbz" target="_blank">
-    <p class="span">Buka Video↗ <small>(2013)</small></p>
+    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2013)</small></p>
     <img src="https://i.ibb.co/fH5Tqxd/Anthem.jpg" alt="Funkot Anthem" title="Funkot Anthem" loading="lazy">
 </a>
 
@@ -48,17 +52,17 @@ Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa bebe
 ### Funkotsu Saishin Casino
 
 <a href="https://youtu.be/IzLuGfLqSpE?si=gZs_DeJBt6VXjMRA" target="_blank">
-    <p class="span">Buka Video↗ <small>(2020)</small></p>
+    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2020)</small></p>
     <img src="https://i.ibb.co/2PFw5M6/Fungkotsu.jpg" alt="Funkotsu Saishin Casino" title="Funkotsu Saishin Casino" loading="lazy">
 </a>
 
 ### Shibamata
 
 <a href="https://youtu.be/FIw-HUP7XK0?si=7MjeLhJzSdabUtt8" target="_blank">
-    <p class="span">Buka Video↗ <small>(2012)</small></p>
+    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2012)</small></p>
     <img src="https://i.ibb.co/FxZk5BM/Shibamata.jpg" alt="Shibamata" title="Shibamata" loading="lazy">
 </a>
 
 ## Catatan
 
-Credit <a href="https://www.instagram.com/mandokoro_jb/" target="_blank">@mandokoro_jb</a>
+Instagram <a href="https://www.instagram.com/mandokoro_jb/" target="_blank">@mandokoro_jb</a>

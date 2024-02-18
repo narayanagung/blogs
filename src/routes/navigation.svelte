@@ -52,6 +52,7 @@
 		align-items: center;
 		transition: 150ms;
 		padding: 1rem;
+		border-radius: 2px;
 	}
 
 	.links a:hover {
@@ -64,6 +65,11 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
+		margin-block: 0.5rem;
+	}
+
+	li a {
+		gap: 0.3rem;
 	}
 
 	.logo {
@@ -71,8 +77,9 @@
 	}
 
 	.logo:hover {
-		background-color: hsla(200, 100%, 50%, 0.1);
+		/* background-color: hsla(200, 100%, 50%, 0.1); */
 		transition: 150ms;
+		border-radius: 2px;
 	}
 
 	.logo img {

@@ -1,13 +1,17 @@
 ---
 title: Membuat Markdown Blog Dengan Hugo
 description: Membuat web blog dengan cepat tanpa database
-date: "9-4-2023"
+date: "10-14-2023"
 categories:
     - tech
     - tutorial
     - hugo
 published: true
 ---
+
+<script lang="ts">
+	import { ArrowUpRight } from "lucide-svelte";
+</script>
 
 <img src="https://i.ibb.co/xJGpw05/Hugo-hero.jpg" alt="Hugo hero">
 
@@ -97,8 +101,13 @@ hugo -t "nama-tema"
 
 Akan muncul folder baru bernama _"public"_ yang bisa dipakai untuk mempublish situs ke penyedia hosting favorit kalian!
 
+<img src="https://i.ibb.co/7g1Dnx7/Public-folder.jpg" alt="Public folder" loading="lazy">
+
 _Jangan lupa untuk mengubah file hugo.toml dan sesuaikan domain yang akan dipakai sebelum mencetak situs._
 
 ## Catatan
 
-Tema yang dipakai : <a href="https://themes.gohugo.io/themes/docura/" target="_blank">Docura↗</a>
+Tema yang dipakai :
+
+-   <a href="https://themes.gohugo.io/themes/docura/" target="_blank"><span class="notes">Docura<ArrowUpRight size={20}/>
+    </span></a>

@@ -10,9 +10,9 @@
 <section>
 	<h1>{index.descriptionAbout}</h1>
 	<div class="social">
-		<a href="mailto:agungnarayanagung@gmail.com"><Mail size={20} /><span>Email</span></a>
-		<a target="_blank" href="https://www.github.com/narayanagung"><Github size={20} /><span>Github</span></a>
-		<a target="_blank" href="https://www.instagram.com/narayanagung"><Instagram size={20} /><span>Instagram</span></a>
+		<!-- <a href="mailto:agungnarayanagung@gmail.com">Email<Mail size={20} /></a> -->
+		<a target="_blank" href="https://www.github.com/narayanagung">Github<Github size={20} /></a>
+		<a target="_blank" href="https://www.instagram.com/narayanagung">Instagram<Instagram size={20} /></a>
 	</div>
 </section>
 
