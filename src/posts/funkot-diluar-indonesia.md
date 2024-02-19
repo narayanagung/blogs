@@ -52,7 +52,7 @@ Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa bebe
 ### Funkotsu Saishin Casino
 
 <a href="https://youtu.be/IzLuGfLqSpE?si=gZs_DeJBt6VXjMRA" target="_blank">
-    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2020)</small></p>
+    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2019)</small></p>
     <img src="https://i.ibb.co/2PFw5M6/Fungkotsu.jpg" alt="Funkotsu Saishin Casino" title="Funkotsu Saishin Casino" loading="lazy">
 </a>
 
@@ -65,4 +65,5 @@ Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa bebe
 
 ## Catatan
 
+<a href="https://youtube.com/playlist?list=PLxYJVQX4iniEjLAX1uJINMPoFHbR5Jbnn&si=OjdCSZhA-TIkC6VW" target="_blank"><span class="notes">Shibamata vs the world<ArrowUpRight size={20}/></span></a>
 Instagram <a href="https://www.instagram.com/mandokoro_jb/" target="_blank">@mandokoro_jb</a>
