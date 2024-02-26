@@ -27,19 +27,19 @@
 		justify-content: center;
 		align-items: center;
 		background-color: hsla(200, 100%, 50%, 0.1);
+		font-size: clamp(1rem, 2.5vw, 1.1em);
 	}
 
 	.title {
 		text-decoration: none;
 		color: inherit;
 		padding: 1rem;
-		transition: 150ms;
 		text-wrap: nowrap;
+		transition: 150ms;
 	}
 
 	.title:hover {
 		background-color: hsla(200, 100%, 50%, 0.1);
-		transition: 150ms;
 	}
 
 	.links a {
@@ -48,14 +48,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		transition: 150ms;
 		padding: 1rem;
 		border-radius: 2px;
+		transition: 150ms;
 	}
 
 	.links a:hover {
 		background-color: hsla(200, 100%, 50%, 0.1);
-		transition: 150ms;
 	}
 
 	.links {
@@ -72,11 +71,11 @@
 
 	.logo {
 		padding-inline: 1rem;
+		transition: 150ms;
 	}
 
 	.logo:hover {
 		/* background-color: hsla(200, 100%, 50%, 0.1); */
-		transition: 150ms;
 		border-radius: 2px;
 	}
 

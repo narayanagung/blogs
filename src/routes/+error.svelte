@@ -6,8 +6,8 @@
 
 <div class="error">
 	<h1><span>{$page.status}</span> {$page.error?.message}</h1>
-	<img src="https://i.ibb.co/nkcB7bV/yui.gif" title="what you've done to this site..." alt="Yui staring with disbelief" />
-	<a href="/"><ArrowLeft size={25} />Back To Homepage</a>
+	<img src="https://i.ibb.co/nkcB7bV/yui.gif" title="what you've done..." alt="Yui staring with disbelief" />
+	<a href="/"><ArrowLeft size={25} />Kembali</a>
 </div>
 
 <style>
@@ -31,7 +31,6 @@
 
 	a:hover {
 		color: hsl(200, 100%, 50%);
-		transition: 150ms;
 	}
 
 	@media screen and (max-width: 700px) {

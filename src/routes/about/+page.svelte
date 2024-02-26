@@ -20,7 +20,7 @@
 	h1 {
 		font-size: clamp(1.5rem, 2.5vw, 2rem);
 		font-weight: 600;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 		text-align: center;
 	}
 
@@ -41,18 +41,18 @@
 		align-items: center;
 		text-decoration: none;
 		color: inherit;
-		transition: 150ms;
 		font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+		transition: 150ms;
 	}
 
 	a:hover {
 		color: hsl(200, 100%, 50%);
-		transition: 150ms;
 	}
 
 	@media screen and (max-width: 400px) {
 		.social {
 			flex-direction: column;
+			align-items: center;
 		}
 	}
 </style>

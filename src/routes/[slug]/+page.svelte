@@ -40,7 +40,7 @@
 	article {
 		padding: 2rem;
 		margin-top: 1rem;
-		border-radius: 0.25rem;
+		border-radius: 0.5rem;
 		/* border-left: 2px solid hsla(200, 100%, 50%, 0.3);
 		border-right: 2px solid hsla(0, 0%, 50%, 0.3);
 		border-bottom: 2px solid hsla(200, 100%, 50%, 0.3);
