@@ -66,4 +66,3 @@ Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa bebe
 ## Catatan
 
 <a href="https://youtube.com/playlist?list=PLxYJVQX4iniEjLAX1uJINMPoFHbR5Jbnn&si=OjdCSZhA-TIkC6VW" target="_blank"><span class="notes">Shibamata vs the world<ArrowUpRight size={20}/></span></a>
-Instagram <a href="https://www.instagram.com/mandokoro_jb/" target="_blank">@mandokoro_jb</a>
