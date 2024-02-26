@@ -30,7 +30,10 @@
 	</div>
 	<ul>
 		{#if $searchStore.notFound}
-			<p class="error">Post tidak ditemukan</p>
+			<div class="notfound">
+				<p><span>Post</span> tidak ditemukan</p>
+				<img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" />
+			</div>
 		{:else}
 			{#each $searchStore.filtered as post}
 				<li class="post">
@@ -120,6 +123,10 @@
 		line-height: 1.5rem;
 	}
 
+	span {
+		color: hsl(0, 100%, 50%);
+	}
+
 	.searchbar {
 		margin-bottom: 2rem;
 		margin-inline: auto;
@@ -129,7 +136,23 @@
 		gap: 1rem;
 	}
 
-	.error {
+	.notfound {
+		margin-inline: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.notfound p {
 		font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+	}
+
+	.notfound img {
+		border-radius: 8px;
+		-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+		max-width: 100%;
 	}
 </style>

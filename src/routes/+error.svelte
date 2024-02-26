@@ -4,13 +4,21 @@
 	// const yuiGif = new URL("../assets/yuiError.gif", import.meta.url).href;
 </script>
 
+<svelte:head>
+	<title>404 Page Not Found</title>
+</svelte:head>
+
 <div class="error">
 	<h1><span>{$page.status}</span> {$page.error?.message}</h1>
-	<img src="https://i.ibb.co/nkcB7bV/yui.gif" title="what you've done..." alt="Yui staring with disbelief" />
+	<img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" />
 	<a href="/"><ArrowLeft size={25} />Kembali</a>
 </div>
 
 <style>
+	h1 {
+		font-size: clamp(1.4rem, 2.5vw, 2rem);
+		font-weight: 600;
+	}
 	.error {
 		display: grid;
 		place-content: center;
@@ -34,10 +42,6 @@
 	}
 
 	@media screen and (max-width: 700px) {
-		h1 {
-			font-size: 1.5rem;
-			line-height: 2rem;
-		}
 		a {
 			font-size: 1rem;
 		}
@@ -48,7 +52,11 @@
 	}
 
 	img {
-		width: 100%;
+		max-width: 100%;
 		display: block;
+		border-radius: 8px;
+		-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 	}
 </style>
