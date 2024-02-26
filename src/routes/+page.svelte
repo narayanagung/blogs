@@ -1,8 +1,22 @@
 <script lang="ts">
 	import * as index from "$lib/index";
 	import { formatDate } from "$lib/date.js";
+	import { createSearchStore, searchHandler } from "$lib/stores/search.js";
+	import { onDestroy } from "svelte";
 
 	export let data;
+
+	const searchPosts = data.posts.map((post) => ({
+		...post,
+		searchTerms: `${post.title} ${post.description} ${post.categories}`,
+	}));
+
+	const searchStore = createSearchStore(searchPosts);
+	const unsubscribe = searchStore.subscribe((model) => searchHandler(model));
+
+	onDestroy(() => {
+		unsubscribe();
+	});
 </script>
 
 <svelte:head>
@@ -10,15 +24,22 @@
 </svelte:head>
 
 <section>
-	<h1>{index.descriptionIndex}</h1>
+	<div class="searchbar">
+		<h1>Search</h1>
+		<input type="search" placeholder="Cari judul, tag, deskripsi" bind:value={$searchStore.search} />
+	</div>
 	<ul>
-		{#each data.posts as post}
-			<li class="post">
-				<small class="date">{formatDate(post.date)}</small>
-				<a href={post.slug}>{post.title}</a>
-				<p>{post.description}</p>
-			</li>
-		{/each}
+		{#if $searchStore.notFound}
+			<p class="error">Post tidak ditemukan</p>
+		{:else}
+			{#each $searchStore.filtered as post}
+				<li class="post">
+					<small class="date">{formatDate(post.date)}</small>
+					<a href={post.slug}>{post.title}</a>
+					<p>{post.description}</p>
+				</li>
+			{/each}
+		{/if}
 	</ul>
 </section>
 
@@ -26,7 +47,6 @@
 	h1 {
 		font-size: clamp(1.5rem, 2.5vw, 2rem);
 		font-weight: 600;
-		margin-bottom: 2rem;
 		text-align: center;
 	}
 
@@ -34,6 +54,20 @@
 		display: grid;
 		place-content: center;
 		padding: 2rem 0;
+	}
+
+	input {
+		padding: 0.6rem 1rem;
+		font-size: clamp(1rem, 2.5vw, 1.1em);
+		border-radius: 2rem;
+		outline: 2px solid transparent;
+		border: none;
+		/* text-align: center; */
+		transition: 150ms;
+	}
+
+	input:focus {
+		outline: 2px solid hsl(0, 0%, 100%);
 	}
 
 	ul {
@@ -53,13 +87,11 @@
 
 	a:hover {
 		color: inherit;
-		transition: 150ms;
 	}
 
 	li {
 		padding: 0rem 1rem;
 		margin-bottom: 1.5rem;
-		transition: 150ms;
 		max-inline-size: 70ch;
 	}
 
@@ -86,5 +118,18 @@
 
 	p {
 		line-height: 1.5rem;
+	}
+
+	.searchbar {
+		margin-bottom: 2rem;
+		margin-inline: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.error {
+		font-size: clamp(1.3rem, 2.5vw, 1.5rem);
 	}
 </style>
