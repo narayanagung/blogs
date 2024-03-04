@@ -48,7 +48,7 @@
 	}
 
 	span {
-		color: red;
+		color: hsl(0, 100%, 50%);
 	}
 
 	img {
