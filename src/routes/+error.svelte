@@ -10,7 +10,8 @@
 
 <div class="error">
 	<h1><span>{$page.status}</span> {$page.error?.message}</h1>
-	<img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" />
+	<!-- <img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" /> -->
+	<img src="https://i.ibb.co/BNy6KXx/image.png" width="360" title="what you've done..." alt="Yui staring with disbelief" />
 	<a href="/"><ArrowLeft size={25} />Kembali</a>
 </div>
 

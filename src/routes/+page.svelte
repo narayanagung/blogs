@@ -32,7 +32,8 @@
 		{#if $searchStore.notFound}
 			<div class="notfound">
 				<p><span>Post</span> tidak ditemukan</p>
-				<img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" />
+				<!-- <img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" /> -->
+				<img src="https://i.ibb.co/BNy6KXx/image.png" width="360" title="what you've done..." alt="Yui staring with disbelief" />
 			</div>
 		{:else}
 			{#each $searchStore.filtered as post}
