@@ -32,6 +32,7 @@
 		</div>
 	</article>
 	<div class="comment">
+		<hr />
 		<!-- <button type="button" on:click={reload} class="btn">Load Comments<MessagesSquare size={20} /></button> -->
 		<script src="https://utteranc.es/client.js" repo="narayanagung/blogs" issue-term="title" label="Comment" theme="icy-dark" crossorigin="anonymous" async>
 		</script>
@@ -95,6 +96,13 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+	}
+
+	hr {
+		margin-block: 1rem;
+		width: 100%;
+		border-color: hsla(0, 0%, 50%, 0.5);
+		border-width: 2px;
 	}
 
 	/* .btn {
