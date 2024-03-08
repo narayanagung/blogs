@@ -1,13 +1,13 @@
 <script lang="ts">
 	// @ts-nocheck
-	// import { MessagesSquare } from "lucide-svelte";
+	import { MessagesSquare } from "lucide-svelte";
 	import { formatDate } from "$lib/date.js";
 
 	export let data;
 
-	// function reload() {
-	// 	location.reload();
-	// }
+	function reload() {
+		location.reload();
+	}
 </script>
 
 <svelte:head>
@@ -33,7 +33,7 @@
 	</article>
 	<div class="comment">
 		<hr />
-		<!-- <button type="button" on:click={reload} class="btn">Load Comments<MessagesSquare size={20} /></button> -->
+		<button type="button" on:click={reload} class="btn">Load Comments<MessagesSquare size={20} /></button>
 		<script src="https://utteranc.es/client.js" repo="narayanagung/blogs" issue-term="title" label="Comment" theme="icy-dark" crossorigin="anonymous" async>
 		</script>
 	</div>
@@ -105,8 +105,9 @@
 		border-width: 2px;
 	}
 
-	/* .btn {
-		display: flex;
+	.btn {
+		/* display: flex; */
+		display: none;
 		align-items: center;
 		gap: 0.5rem;
 		font-size: clamp(1rem, 2.5vw, 1rem);
@@ -123,7 +124,7 @@
 	.btn:hover {
 		background-color: hsl(0, 0%, 34%);
 		outline: 2px solid hsl(0, 0%, 100%);
-	} */
+	}
 
 	@media screen and (max-width: 450px) {
 		article {
