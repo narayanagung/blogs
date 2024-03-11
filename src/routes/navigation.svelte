@@ -1,6 +1,7 @@
 <script lang="ts">
 	// import ThemeToggle from "./theme-toggle.svelte";
 	import { Rss } from "lucide-svelte";
+	import { ExternalLink } from "lucide-svelte";
 </script>
 
 <nav>
@@ -12,6 +13,9 @@
 		</li>
 		<li>
 			<a href="/about" title="About Me">About</a>
+		</li>
+		<li>
+			<a href="https://mdmaker.vercel.app" title="Make markdown file" target="_blank">MdMaker<ExternalLink size={15} /></a>
 		</li>
 		<li>
 			<a href="/rss.xml" title="Rss Feed" target="_blank">RSS<Rss size={15} /></a>
