@@ -10,7 +10,7 @@ published: true
 ---
 
 <script lang="ts">
-	import { ArrowUpRight } from "lucide-svelte";
+	import { ExternalLink } from "lucide-svelte";
 </script>
 
 <img src="https://i.ibb.co/h81zp2h/Coverfunkot.jpg" alt="Funkot hero">
@@ -32,14 +32,14 @@ Singkatnya, ketika beliau sedang mendengar musik dangdut di youtube ia tidak sen
 ### Let's go! Champagne-man!
 
 <a href="https://youtu.be/zUiIOnuOwkI?si=_KIx0XLNCusRscCY" target="_blank">
-    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2014)</small></p>
+    <p class="span">Buka Video<ExternalLink size={15} /><small>(2014)</small></p>
     <img src="https://i.ibb.co/tx6p63w/Champagne-man.jpg" alt="Let's go! Champagne-man!" title="Let's go! Champagne-man!" loading="lazy">
 </a>
 
 ### Funkot Anthem
 
 <a href="https://youtu.be/JGoV1ZYbNtc?si=Jl2zQkOf4myMsIbz" target="_blank">
-    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2013)</small></p>
+    <p class="span">Buka Video<ExternalLink size={15} /><small>(2013)</small></p>
     <img src="https://i.ibb.co/fH5Tqxd/Anthem.jpg" alt="Funkot Anthem" title="Funkot Anthem" loading="lazy">
 </a>
 
@@ -52,17 +52,17 @@ Walaupun tidak sepenuhnya memenuhi prinsip funkot namun bisa didengar bahwa bebe
 ### Funkotsu Saishin Casino
 
 <a href="https://youtu.be/IzLuGfLqSpE?si=gZs_DeJBt6VXjMRA" target="_blank">
-    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2019)</small></p>
+    <p class="span">Buka Video<ExternalLink size={15} /><small>(2019)</small></p>
     <img src="https://i.ibb.co/2PFw5M6/Fungkotsu.jpg" alt="Funkotsu Saishin Casino" title="Funkotsu Saishin Casino" loading="lazy">
 </a>
 
 ### Shibamata
 
 <a href="https://youtu.be/FIw-HUP7XK0?si=7MjeLhJzSdabUtt8" target="_blank">
-    <p class="span">Buka Video<ArrowUpRight size={20} /><small>(2012)</small></p>
+    <p class="span">Buka Video<ExternalLink size={15} /><small>(2012)</small></p>
     <img src="https://i.ibb.co/FxZk5BM/Shibamata.jpg" alt="Shibamata" title="Shibamata" loading="lazy">
 </a>
 
 ## Catatan
 
-<a href="https://youtube.com/playlist?list=PLxYJVQX4iniEjLAX1uJINMPoFHbR5Jbnn&si=OjdCSZhA-TIkC6VW" target="_blank"><span class="notes">Shibamata vs the world<ArrowUpRight size={20}/></span></a>
+<a href="https://youtube.com/playlist?list=PLxYJVQX4iniEjLAX1uJINMPoFHbR5Jbnn&si=OjdCSZhA-TIkC6VW" target="_blank"><span class="notes">Shibamata vs the world<ExternalLink size={15}/></span></a>

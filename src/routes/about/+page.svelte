@@ -46,7 +46,7 @@
 	}
 
 	a:hover {
-		color: hsl(200, 100%, 50%);
+		color: hsl(200, 100%, 65%);
 	}
 
 	@media screen and (max-width: 400px) {

@@ -10,7 +10,7 @@ published: false
 ---
 
 <script lang="ts">
-	import { ArrowUpRight } from "lucide-svelte";
+	import { ExternalLink } from "lucide-svelte";
 </script>
 
 <img src="https://i.ibb.co/xJGpw05/Hugo-hero.jpg" alt="Hugo hero">
@@ -107,4 +107,4 @@ _Jangan lupa untuk mengubah file hugo.toml dan sesuaikan domain yang akan dipaka
 
 ## Catatan
 
-<a href="https://themes.gohugo.io/themes/docura/" target="_blank"><span class="notes">Tema yang dipakai<ArrowUpRight size={20}/></span></a>
+<a href="https://themes.gohugo.io/themes/docura/" target="_blank"><span class="notes">Tema yang dipakai<ExternalLink size={20}/></span></a>

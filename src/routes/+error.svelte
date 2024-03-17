@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from "$app/stores";
-	import { ArrowLeft } from "lucide-svelte";
+	import { Undo2 } from "lucide-svelte";
 	// const yuiGif = new URL("../assets/yuiError.gif", import.meta.url).href;
 </script>
 
@@ -10,9 +10,9 @@
 
 <div class="error">
 	<h1><span>{$page.status}</span> {$page.error?.message}</h1>
-	<!-- <img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" /> -->
-	<img src="https://i.ibb.co/BNy6KXx/image.png" width="360" title="what you've done..." alt="Yui staring with disbelief" />
-	<a href="/"><ArrowLeft size={25} />Kembali</a>
+	<img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" />
+	<!-- <img src="https://i.ibb.co/BNy6KXx/image.png" width="360" title="what you've done..." alt="Yui staring with disbelief" /> -->
+	<a href="/"><Undo2 size={22} />Kembali</a>
 </div>
 
 <style>
@@ -35,11 +35,12 @@
 		text-decoration: none;
 		color: white;
 		font-size: 1.3rem;
+		gap: 0.2rem;
 		transition: 150ms;
 	}
 
 	a:hover {
-		color: hsl(200, 100%, 50%);
+		color: hsl(200, 100%, 65%);
 	}
 
 	@media screen and (max-width: 700px) {

@@ -63,12 +63,14 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
+    gap: 0.3rem;
 }
 
 /* Notes link span */
 .markdown .notes {
     display: flex;
     align-items: center;
+    gap: 0.3rem;
 }
 
 .markdown p {
@@ -78,6 +80,13 @@ body {
 .markdown :is(ul, ol) {
     padding-left: 2rem;
     line-height: 1.5rem;
+    list-style: "🔖 ";
+}
+
+.markdown .list {
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    list-style: "💠 ";
 }
 
 .markdown li {
@@ -86,7 +95,7 @@ body {
 
 .markdown a {
     text-decoration: none;
-    color: hsl(200, 100%, 50%);
+    color: hsl(200, 100%, 65%);
     transition: 150ms;
 }
 

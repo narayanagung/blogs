@@ -10,7 +10,7 @@ published: true
 ---
 
 <script lang="ts">
-	import { ArrowUpRight } from "lucide-svelte";
+	import { ExternalLink } from "lucide-svelte";
 </script>
 
 <img src="https://i.ibb.co/9YzXwpR/Coverondo.jpg" alt="Ondo hero">
@@ -34,24 +34,25 @@ Genre ini lebih sering muncul di series anime lawas tepatnya di bagian penutup, 
 ### Ondo in motion
 
 <a href="https://youtube.com/playlist?list=PLxYJVQX4iniG5Zlxq2WWZq9fg4eBhjtV7&si=Fc9ci-dq8HRVjEUq" target="_blank">
-    <p class="span">Buka Playlist<ArrowUpRight size={20} /></p>
+    <p class="span">Buka Playlist<ExternalLink size={15} /></p>
     <img src="https://i.ibb.co/cJDmSvc/Ondoinmotion.jpg" alt="Ondo in motion" title="Ondo in motion" loading="lazy">
 </a>
 
 ## Preview list
 
--   Sunshine Pikkapika Ondo
--   Pekopon Shinryaku Ondo
--   Pretty Cure Ondo
--   Pokémon Ondo
--   Di Gi Charat Ondo
--   Hunter Ondo
--   WA! WA!! World Ondo
--   Neko Neko Ondo
--   Ichijou Ondo
--   Hanabira Ondo
-    -   dan yang lainnya...
+<ul class="list">
+    <li>Sunshine Pikkapika Ondo</li>
+    <li>Pekopon Shinryaku Ondo</li>
+    <li>Pretty Cure Ondo</li>
+    <li>Pokémon Ondo</li>
+    <li>Di Gi Charat Ondo</li>
+    <li>Hunter Ondo</li>
+    <li>WA! WA!! World Ondo</li>
+    <li>Neko Neko Ondo</li>
+    <li>Ichijou Ondo</li>
+    <li>Hanabira Ondo</li>
+</ul>
 
 ## Catatan
 
-<a href="https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo" target="_blank"><span class="notes">Oshiri Puri Ondo<ArrowUpRight size={20} /></span></a>
+<a href="https://youtu.be/ON1_hkXe-1Y?si=81eEVcW7ODReCjGo" target="_blank"><span class="notes">Oshiri Puri Ondo<ExternalLink size={15} /></span></a>

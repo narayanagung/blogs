@@ -32,8 +32,8 @@
 		{#if $searchStore.notFound}
 			<div class="notfound">
 				<p><span>Post</span> tidak ditemukan</p>
-				<!-- <img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" /> -->
-				<img src="https://i.ibb.co/BNy6KXx/image.png" width="360" title="what you've done..." alt="Yui staring with disbelief" />
+				<img src="https://i.ibb.co/nkcB7bV/yui.gif" width="360" title="what you've done..." alt="Yui staring with disbelief" />
+				<!-- <img src="https://i.ibb.co/BNy6KXx/image.png" width="360" title="what you've done..." alt="Yui staring with disbelief" /> -->
 			</div>
 		{:else}
 			{#each $searchStore.filtered as post}
@@ -61,10 +61,10 @@
 	}
 
 	input {
-		padding: 0.6rem 1rem;
-		font-size: clamp(1rem, 2.5vw, 1.1em);
+		padding: 0.6rem 1.1rem;
+		font-size: clamp(0.9rem, 2.5vw, 1em);
 		border-radius: 2rem;
-		outline: 2px solid transparent;
+		outline: 2px solid hsl(0, 0%, 35%);
 		border: none;
 		/* text-align: center; */
 		transition: 150ms;
@@ -83,7 +83,7 @@
 		text-decoration: none;
 		text-transform: capitalize;
 		font-size: clamp(1.3rem, 2.5vw, 1.5rem);
-		color: hsl(200, 100%, 50%);
+		color: hsl(200, 100%, 65%);
 		text-wrap: balance;
 		line-height: 2rem;
 		transition: 150ms;
